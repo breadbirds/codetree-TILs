@@ -10,7 +10,7 @@ public class Main {
         System.out.print(a - b);
       }
 
-      if(a < b) {
+      if(a <= b) {
         System.out.print(b - a);
       }
     }
