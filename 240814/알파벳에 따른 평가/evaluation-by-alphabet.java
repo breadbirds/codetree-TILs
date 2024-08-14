@@ -7,7 +7,7 @@ public class Main {
         char s = sc.next().charAt(0);
 
         if(s == 'S'){
-            System.out.print("superior");
+            System.out.print("Superior");
         }
         else if(s == 'A'){
             System.out.print("Excellent");
