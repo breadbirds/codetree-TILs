@@ -6,7 +6,7 @@ public class Main {
 
         int n = sc.nextInt();
 
-        if(n <= 7 && n % 2 == 1 || n == 8) {
+        if((n <= 7 && n % 2 == 1) || (n >= 8 && n % 2 == 0)) {
             System.out.print("31");
         }
         else if (n == 2) {
