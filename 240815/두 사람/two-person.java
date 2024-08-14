@@ -12,7 +12,7 @@ public class Main {
         bAge = sc.nextInt();
         bGender = sc.next().charAt(0);
 
-        if((aAge >= 19 || bAge >= 19) && (aGender == 'M' || bGender == 'M') ){
+        if((aAge >= 19 && aGender == 'M') || bAge >= 19 && bGender == 'M') {
             System.out.print("1");
         }
         else{
