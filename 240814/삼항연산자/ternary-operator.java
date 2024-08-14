@@ -6,13 +6,15 @@ public class Main {
 
         int a = sc.nextInt();
 
+        System.out.print(a==100 ? "pass" : "failure");
 
 
-        if(a==100){
-            System.out.print("pass");
-        }
-        else{
-            System.out.print("failure");
-        }
+
+        // if(a==100){
+        //     System.out.print("pass");
+        // }
+        // else{
+        //     System.out.print("failure");
+        // }
     }
 }
