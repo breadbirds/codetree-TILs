@@ -14,8 +14,9 @@ public class Main {
             else {
                 System.out.print("BOY");
             }
+        }
 
-        if(g == 1) {
+        else {
             if(a >= 19) {
                 System.out.print("WOMAN");
             }
@@ -28,5 +29,4 @@ public class Main {
 
 
     }
-}
 }
