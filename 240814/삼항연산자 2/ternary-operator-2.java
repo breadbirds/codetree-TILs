@@ -6,14 +6,7 @@ public class Main {
         
         int a = sc.nextInt();
 
-        if(a == 1){
-            System.out.print("t");
-
-        }
-        else{
-            System.out.print("f");
-        }
-        
+    System.out.print(a == 1 ? "t" : "f");
 
        
     }
