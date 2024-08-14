@@ -8,7 +8,7 @@ public class Main {
         if(a == 5) {
             System.out.print("A");
         }
-        if(a == 2*a) {
+        if(a % 2 == 0) {
             System.out.print("B");
         }
 
