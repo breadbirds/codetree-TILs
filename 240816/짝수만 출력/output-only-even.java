@@ -6,9 +6,9 @@ public class Main {
 
         int a = sc.nextInt();
         int b = sc.nextInt();
-        int c = 0;
+        int c = a;
 
-        while(c >= a && c <= b){
+        while(c <= b){
             System.out.print(c + " ");
             c += 2;
         }
