@@ -10,7 +10,7 @@ public class Main {
         for(int i = 1; i <= n; i++) {
             int a = sc.nextInt();
             if(a % 2 == 1 && a % 3 == 0) {
-                sum += i;
+                sum += a;
             }
         }
         System.out.print(sum);
