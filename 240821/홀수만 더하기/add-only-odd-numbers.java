@@ -8,7 +8,7 @@ public class Main {
         int sum = 0;
 
         for(int i = 1; i <= n; i++) {
-            if(i % 3 == 0) {
+            if(i % 2 == 1 && i % 3 == 0) {
                 sum += i;
             }
         }
