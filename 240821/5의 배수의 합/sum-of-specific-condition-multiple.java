@@ -6,12 +6,13 @@ public class Main {
 
         int a = sc.nextInt();
         int b = sc.nextInt();
-        int sum = 0;
+        int sum1 = 0;
+        int sum2 = 0;
 
         if(a >= b) {
             for(int i = a; i <= b; i++) {
             if(i % 5 == 0) {
-                sum += i;
+                sum1 += i;
             }
 
         }
@@ -19,10 +20,10 @@ public class Main {
         else {
             for(int i =b; i <= a; i++) {
                 if(i % 5 == 0) {
-                sum += i;
+                sum2 += i;
             }
             }
         }
-        System.out.print(sum);
+        System.out.print(sum1+sum2);
     }
 }
