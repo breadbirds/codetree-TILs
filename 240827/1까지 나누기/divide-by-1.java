@@ -6,18 +6,20 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
+        int ans = n;
         int cnt = 0;
         for(int i = 1; i <= n; i++) {
-            n = n / i;
+            ans = ans / i;
             cnt++;
-            if(n <= 1) {
+            
+            if(ans <= 1) {
                 
                 break;
             }
- 
+            
         }
-         
-        System.out.print(cnt + 1);
+           System.out.println(cnt);
+      
 
         
     }
