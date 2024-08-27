@@ -8,15 +8,16 @@ public class Main {
         int n = sc.nextInt();
         int cnt = 0;
         for(int i = 1; i <= n; i++) {
-            cnt += i;
-            if(i / n <= 1) {
-                System.out.print(cnt);
+            n = n / i;
+            cnt++;
+            if(n <= 1) {
+                
                 break;
-
             }
-            
+ 
         }
-
+         
+        System.out.print(cnt + 1);
 
         
     }
