@@ -9,6 +9,7 @@ public class Main {
         while(true){
             int n = sc.nextInt();
             if(n % 2 == 1) {
+                continue;
                 
             }
             else{
