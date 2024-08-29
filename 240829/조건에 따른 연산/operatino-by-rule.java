@@ -8,8 +8,9 @@ public class Main {
         int cnt = 0;
 
         while (true) {
+            cnt++;
             if(n >= 1000) {
-                cnt++;
+                
                 break;
             }
             if(n % 2 == 0) {
@@ -20,9 +21,6 @@ public class Main {
                 n *= 2 + 2;
             }
           
-            cnt++;
-
-            
         }
         System.out.println(cnt);
     }
